@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+	<div class="container-grid">
+		<!-- Imagen de Criptomonedas -->
+		<div class="container-grid__img">
+			<img src="images/cryptomonedas.png" alt="criptomonedas">
+		</div>
+
+		<!-- Info de criptomonedas -->
+		<div class="container-grid__info" id="container-info">
+
+			<!-- Formulario -->
+			<form action="#" id="formulario">
+				<h3 class="subtitle">Elige tu moneda</h3>
+				<select name="moneda" id="moneda" class="select-monedas">
+					<option value="" disabled selected>Elige tu moneda</option>
+					<option value="USD">Dolar Estadounidense</option>
+					<option value="MXN">Peso Mexicano</option>
+					<option value="GBP">Libras</option>
+					<option value="EUR">Euros</option>
+					<option value="PEN">Soles</option>
+				</select>
+
+				<h3 class="subtitle">Elige tu criptomoneda</h3>
+				<select name="criptomoneda" id="criptomoneda" class="select-cripto-monedas">
+					<option value="" disabled selected>Elige tu criptomoneda</option>
+				</select>
+
+				<input type="submit" class="main-button" value="Cotizar">
+			</form>
+
+			<!-- Resultado -->
+			<div class="container-info-resultado" id="resultado">
+
+			</div>
+		</div>
+	</div>
+
+	<script src="JS/script.js"></script>
+
+</body>
+</html>
